@@ -4,10 +4,10 @@ from setuptools import find_packages, setup
 
 setup(
     name='django-inline-ordering',
-    version='0.1.3',
-    author='Piotr Kilczuk',
-    author_email='p.kilczuk@neumea.pl',
-    url='http://github.com/centralniak',
+    version='0.1.4',
+    author='Ralf Kostulski',
+    author_email='webdeveloper@ralfkostulski.de',
+    url='https://github.com/ralfzen/django-inline-ordering/',
     description='Django app to ease ordering of related data - ' \
                 'enable Drag&Drop ordering in admin with just a few LOC',
     #packages = ['inline_ordering',],
