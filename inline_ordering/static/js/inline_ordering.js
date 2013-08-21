@@ -26,9 +26,9 @@ var InlineOrdering = {
             items: InlineOrdering.getOrderables(),
             update: InlineOrdering.update
         });
-        jQuery("div.inline-group").disableSelection();
+        // jQuery("div.inline-group").disableSelection(); // makes bug with tags-editing
 
-        jQuery('div.inline_ordering_position').hide();
+        jQuery('div.field-inline_ordering_position').hide();
         
         InlineOrdering.getOrderables().each(function() {
             jQuery(this).find('fieldset').css('cursor', 'move');
